@@ -13,6 +13,6 @@ Remember to edit the script:
 3. $GotifyToken = "CHANGE_ME"
 4. title = "Customer: Example"
 
-Dont change the charset thats broke emoji!
+Don't change the script's charset, this breaks the functionality of the emoji.
 
 ![immagine](https://github.com/Leproide/Gotify-VEEAM-Agent-notification/assets/8448713/2f25a7fe-6df1-4129-a3a9-84f43b554bdc)
