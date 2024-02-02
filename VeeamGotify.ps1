@@ -54,7 +54,7 @@ if ($A) {
 
         # Check if the event is older than 10 minutes
         $TimeDifference = (Get-Date) - $EventTime
-        if ($TimeDifference.TotalMinutes -gt 9999) {
+        if ($TimeDifference.TotalMinutes -gt 10) {
             exit
         }
 
