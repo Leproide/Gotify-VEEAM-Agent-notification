@@ -1,5 +1,5 @@
 # Gotify VEEAM Agent notification
-Use Gotify as a centralized Veeam Agent backup notification center
+Use Gotify as a centralized Veeam Agent backup notification center on Windows system by powershell script.
 
 We recommend generating a token for each customer for a cleaner display of notifications.
 
