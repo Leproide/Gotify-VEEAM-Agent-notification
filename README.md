@@ -2,6 +2,7 @@
 Use Gotify as a centralized Veeam Agent backup notification center
 
 We recommend generating a token for each customer for a cleaner display of notifications.
+
 Through the "all messages" section of Gotify, however, you can easily see failed backups by checking the red or orange dots in the relevant notification.
 
 You need to create a task based on Veeam Agent event in windows event log.
