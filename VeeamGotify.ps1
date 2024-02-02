@@ -26,9 +26,6 @@
     }
 }
 
-# Custom string
-$CustomString = "Cliente: Test"
-
 # Get the last event with ID 190
 $A = Get-WinEvent -MaxEvents 1 -FilterHashTable @{Logname = "Veeam Agent"; ID = 190}
 
@@ -41,11 +38,11 @@ if ($A) {
 
     # Check if the event message contains "Success", "Failed", or "Warning"
     if ($Message -match "Success") {
-        $CustomString = "🟢 BACKUP ESEGUITO"  # Green circle emoji
+        $CustomString = "🟢 BACKUP SUCCESS"  # Green circle emoji
     } elseif ($Message -match "Failed") {
-        $CustomString = "🔴 BACKUP FALLITO"  # Red circle emoji
+        $CustomString = "🔴 BACKUP FAILED"  # Red circle emoji
     } elseif ($Message -match "Warning") {
-        $CustomString = "🟠 WARNING!"  # Orange circle emoji
+        $CustomString = "🟠 BACKUP WARNING!"  # Orange circle emoji
     }
 
     # Check if the event date is equal to the current date
