@@ -15,4 +15,4 @@ Remember to edit the script:
 
 Don't change the script's charset, this breaks the functionality of the emoji.
 
-![immagine](https://github.com/Leproide/Gotify-VEEAM-Agent-notification/assets/8448713/2f25a7fe-6df1-4129-a3a9-84f43b554bdc)
+![Gotify – Mozilla Firefox_2](https://github.com/Leproide/Gotify-VEEAM-Agent-notification/assets/8448713/98a14564-24f6-4bf8-8aae-eacaaae9a23d)
