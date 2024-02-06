@@ -24,7 +24,7 @@ In the code you can set the max age of event registry entry for prevent duplicat
 ($TimeDifference.TotalMinutes -gt 10)
 ```
 
-DoubleNotifications_Veeam_Gotify.ps1
+*DoubleNotifications_Veeam_Gotify.ps1*
 
 This variant sends an additional notification to another token that can be used to quickly check for failed or warning tasks
 
