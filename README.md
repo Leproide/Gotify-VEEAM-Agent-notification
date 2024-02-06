@@ -24,5 +24,7 @@ In the code you can set the max age of event registry entry for prevent duplicat
 ($TimeDifference.TotalMinutes -gt 10)
 ```
 
+DoubleNotifications_Veeam_Gotify.ps1
+This variant sends an additional notification to another token that can be used to quickly check for failed or warning tasks
 
 ![Gotify – Mozilla Firefox_2](https://github.com/Leproide/Gotify-VEEAM-Agent-notification/assets/8448713/98a14564-24f6-4bf8-8aae-eacaaae9a23d)
