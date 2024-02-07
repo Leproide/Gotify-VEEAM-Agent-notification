@@ -28,4 +28,5 @@ In the code you can set the max age of event registry entry for prevent duplicat
 
 This variant sends an additional notification to another token that can be used to quickly check for failed or warning tasks
 
-![Gotify – Mozilla Firefox_2](https://github.com/Leproide/Gotify-VEEAM-Agent-notification/assets/8448713/98a14564-24f6-4bf8-8aae-eacaaae9a23d)
+![Gotify – Mozilla Firefox](https://github.com/Leproide/Gotify-VEEAM-Agent-notification/assets/8448713/e25f4dd0-2d84-42e1-b15b-19749f91a1eb)
+
