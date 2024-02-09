@@ -34,7 +34,7 @@ This variant sends an additional notification to another token that can be used 
 
 Now with script generator for fast editing!
 
-You can also save and load configuration by xml file
+You can save and load configurations from XML files
 
 Compatible with single and double token script
 
