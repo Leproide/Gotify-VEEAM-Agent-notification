@@ -1,0 +1,12 @@
+C:\Users\Leprechaun\source\repos\ScriptGen\obj\Debug\ScriptGen.vbprojAssemblyReference.cache
+C:\Users\Leprechaun\source\repos\ScriptGen\obj\Debug\ScriptGen.Form1.resources
+C:\Users\Leprechaun\source\repos\ScriptGen\obj\Debug\ScriptGen.Resources.resources
+C:\Users\Leprechaun\source\repos\ScriptGen\obj\Debug\ScriptGen.vbproj.GenerateResource.cache
+C:\Users\Leprechaun\source\repos\ScriptGen\obj\Debug\ScriptGen.vbproj.CoreCompileInputs.cache
+C:\Users\Leprechaun\source\repos\ScriptGen\bin\Debug\ScriptGen.exe.config
+C:\Users\Leprechaun\source\repos\ScriptGen\bin\Debug\ScriptGen.exe
+C:\Users\Leprechaun\source\repos\ScriptGen\bin\Debug\ScriptGen.pdb
+C:\Users\Leprechaun\source\repos\ScriptGen\bin\Debug\ScriptGen.xml
+C:\Users\Leprechaun\source\repos\ScriptGen\obj\Debug\ScriptGen.exe
+C:\Users\Leprechaun\source\repos\ScriptGen\obj\Debug\ScriptGen.xml
+C:\Users\Leprechaun\source\repos\ScriptGen\obj\Debug\ScriptGen.pdb
