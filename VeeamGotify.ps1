@@ -1,14 +1,14 @@
 ﻿Function Send-Gotify {
     Param([Parameter(Mandatory=$true)][String]$Message)
     
-    $GotifyServer = "http://CHANGE_ME"
+    $GotifyServer = "YOUR SERVER"
     $GotifyPort = "80"  # Replace with your Gotify port
-    $GotifyToken = "CHANGE_ME"
+    $GotifyToken = "PRIMARY TOKEN"
     
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
     
     $RequestBody = @{
-        title = "Customer: Example"
+        title = "CUSTOMER: EXAMPLE PC"
         message = $Message
     } | ConvertTo-Json
 
