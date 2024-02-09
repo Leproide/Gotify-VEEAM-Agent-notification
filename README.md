@@ -10,10 +10,10 @@ You need to create a task based on Veeam Agent event in windows event log.
 Remember to edit the script:
 
 ```
-$GotifyServer = "http://CHANGE_ME"
+$GotifyServer = "YOUR SERVER"
 $GotifyPort = "80"  # Replace with your Gotify port
-$GotifyToken = "CHANGE_ME"
-title = "Customer: Example"
+$GotifyToken = "PRIMARY TOKEN"
+title = "CUSTOMER: EXAMPLE PC"
 ```
 
 Don't change the script's charset, this breaks the functionality of the emoji.
@@ -29,4 +29,8 @@ In the code you can set the max age of event registry entry for prevent duplicat
 This variant sends an additional notification to another token that can be used to quickly check for failed or warning tasks
 
 ![Gotify – Mozilla Firefox](https://github.com/Leproide/Gotify-VEEAM-Agent-notification/assets/8448713/e25f4dd0-2d84-42e1-b15b-19749f91a1eb)
+
+# Script generator
+
+![immagine](https://github.com/Leproide/Gotify-VEEAM-Agent-notification/assets/8448713/0ec99bbd-a92f-4fb3-af99-6427fac3bf8b)
 
