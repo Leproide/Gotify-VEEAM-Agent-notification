@@ -32,5 +32,9 @@ This variant sends an additional notification to another token that can be used 
 
 # Script generator
 
+Now with script generator for fast editing!
+You can also save and load configuration by xml file
+Compatible with single and double token script
+
 ![immagine](https://github.com/Leproide/Gotify-VEEAM-Agent-notification/assets/8448713/0ec99bbd-a92f-4fb3-af99-6427fac3bf8b)
 
