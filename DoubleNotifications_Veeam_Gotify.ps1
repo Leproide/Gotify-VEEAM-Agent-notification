@@ -1,4 +1,4 @@
-Function Send-Gotify {
+﻿Function Send-Gotify {
     Param([Parameter(Mandatory=$true)][String]$Message, [String]$Token)
     
     $GotifyServer = "YOUR SERVER"
@@ -46,11 +46,11 @@ if ($A) {
             exit
         }
 
-        # Check if the event message contains "Success", "Failed", or "Warning" and send separated notification for failed and warning
+        # Check if the event message contains "Success", "Failed", or "Warning"
         if ($Message -match "Success") {
-            $CustomString = "🟢 BACKUP SUCCESS"  # Green circle emoji
+            $CustomString = "🟢 BACKUP ESEGUITO"  # Green circle emoji
         } elseif ($Message -match "Failed") {
-            $CustomString = "🔴 BACKUP FAILED"  # Red circle emoji
+            $CustomString = "🔴 BACKUP FALLITO"  # Red circle emoji
             Send-Gotify -Message "$CustomString`r`n$EventTimeString`r`n$Message" -Token "APP TOKEN FOR FAILED AND WARNING"
         } elseif ($Message -match "Warning") {
             $CustomString = "🟠 WARNING!"  # Orange circle emoji
