@@ -47,12 +47,12 @@ if ($A) {
         }
 
         # Check if the event message contains "Success", "Failed", or "Warning"
-        if ($Message -match "Success") {
+        if ($Message -match "finished with Success") {
             $CustomString = "🟢 BACKUP ESEGUITO"  # Green circle emoji
-        } elseif ($Message -match "Failed") {
+        } elseif ($Message -match "finished with Failed") {
             $CustomString = "🔴 BACKUP FALLITO"  # Red circle emoji
             Send-Gotify -Message "$CustomString`r`n$EventTimeString`r`n$Message" -Token "APP TOKEN FOR FAILED AND WARNING"
-        } elseif ($Message -match "Warning") {
+        } elseif ($Message -match "finished with Warning") {
             $CustomString = "🟠 WARNING!"  # Orange circle emoji
             Send-Gotify -Message "$CustomString`r`n$EventTimeString`r`n$Message" -Token "APP TOKEN FOR FAILED AND WARNING"
         }
