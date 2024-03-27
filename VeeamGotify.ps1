@@ -37,11 +37,11 @@ if ($A) {
     $FormattedEventDate = $EventTime.ToString("dd-MM-yyyy")
 
     # Check if the event message contains "Success", "Failed", or "Warning"
-    if ($Message -match "Success") {
+    if ($Message -match "finished with Success") {
         $CustomString = "🟢 BACKUP SUCCESS"  # Green circle emoji
-    } elseif ($Message -match "Failed") {
+    } elseif ($Message -match "finished with Failed") {
         $CustomString = "🔴 BACKUP FAILED"  # Red circle emoji
-    } elseif ($Message -match "Warning") {
+    } elseif ($Message -match "finished with Warning") {
         $CustomString = "🟠 BACKUP WARNING!"  # Orange circle emoji
     }
 
